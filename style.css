@@ -68,3 +68,98 @@ body {
     margin: 50px auto;
   }
   
+  /* Additional CSS for URL Shortener */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Styling for the header */
+  header {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Styling for the navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #ddd;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+    
+    .logo {
+      margin-bottom: 10px;
+    }
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul {
+      margin-top: 10px;
+    }
+    
+    nav ul li {
+      margin: 0;
+    }
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #bdc3c7, #2c3e50);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button[type="submit"],
+  button {
+    background: linear-gradient(to bottom right, #3498db, #8e44ad);
+    color: #fff;
+  }
+  
+  button:hover {
+    background: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+  }
+  
